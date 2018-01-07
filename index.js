@@ -23,11 +23,11 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
-	let current = document.getElementById(`grand-node`)
-	let next = current.childfren[0]
+	let lis = document.getElementById(`grand-node`)
+	let next 
 
-	while(next){
-    node = nextNode
-    nextNode = node.children[0]
-  }
- }
+		for(let i=0;i<lis.length-1;i++) {
+    		test=lis[i].querySelector("div");
+  		}
+	return test;
+}
