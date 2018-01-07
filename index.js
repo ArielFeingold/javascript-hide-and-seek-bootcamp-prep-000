@@ -31,3 +31,12 @@ function deepestChild(){
   		}
 	return test;
 }
+
+function deepestChild(){
+	let list = document.querySelectorAll(`#grand-node div`);
+	let test;
+		for(let i =0; i < list.length - 1; i++){
+			test=list[i].querySelector("div");
+		}
+	return test
+}
