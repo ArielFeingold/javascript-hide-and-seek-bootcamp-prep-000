@@ -21,3 +21,13 @@ function increaseRankBy(n){
     }
     return rankedLists
 }
+
+function deepestChild(){
+	let current = document.getElementById(`grand-node`)
+	let next = current.childfren[0]
+
+	while(next){
+    node = nextNode
+    nextNode = node.children[0]
+  }
+ }
